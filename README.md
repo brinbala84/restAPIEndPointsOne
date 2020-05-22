@@ -9,9 +9,14 @@ restAPIEndPointsOne
 a)http://localhost:8080/loginDetails/Telecom/api/getproductdetails 
 gives 200 Ok Message, Similarly for Payments and Manufacturing 
 b)http://localhost:8080/loginDetails/Payments/api/getproductdetails c)http://localhost:8080/loginDetails/Manufacturing/api/getproductdetails 
-6)Go to Postman and give Domain {18} 
-a)http://localhost:8080/loginDetails/18/api/getconfigdetails gives 200 Ok Message, Similarly for 24 and 30 b)http://localhost:8080/loginDetails/24/api/getconfigdetails 
-c)http://localhost:8080/loginDetails/30/api/getconfigdetails 
+for Mutual Funds since the status type is Processing, it will not show any message 
+d)http://localhost:8080/Mutual Funds/Manufacturing/api/getproductdetails
+e)http://localhost:8080/Finance/Manufacturing/api/getproductdetails
+
+6)Go to Postman and give Domain {12} 
+a)http://localhost:8080/loginDetails/12/api/getconfigdetails gives 200 Ok Message
+b)http://localhost:8080/loginDetails/18/api/getconfigdetails gives NO_CONTENT
+c)http://localhost:8080/loginDetails/24/api/getconfigdetails gives 509Bandwidth Limit Exceeded (Apache bw/limited extension)
 or else 200 for other Domains 
 7)Go to your browser, http://localhost:8080/login 
 a)Enter UserName as user and pwd as password you will be redirected to another page though a whitelabel 
