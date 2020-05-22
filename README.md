@@ -1,8 +1,8 @@
 # restAPIEndPointsOne
-restAPIEndPointsOne
-
-1)Download the zip format of restAPIEndPoints 
-2)unzip it and find the target directory of restAPIEndPoints 
+restAPIEndPointsOne - To Do
+---------------------------
+1)Download the zip format of restAPIEndPointsOne 
+2)unzip it and find the target directory of restAPIEndPointsOne 
 3)Go to Eclipse and go to Import ---> Existing Maven Projects ---> target folder ---> Finish 
 4)Go to SpringBootDemoApplication.java ---> run as Java Application 
 5)Go to Postman and give Domain {Telecom} 
